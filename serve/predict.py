@@ -89,6 +89,12 @@ def predict_fn(input_data, model):
     #       be a numpy array which contains a single integer which is either 1 or 0
     
     #using a rounding numpy function
-    result = np.array(round(model(data).detach().item()))
-
+    with torch.no_grad():
+        out = model.forward(data)
+    
+    result = np.round(out.numpy())
     return result
+    
+    #result = np.array(round(model(data).detach().item()))
+
+    #return result

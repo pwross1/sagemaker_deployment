@@ -1,0 +1,301 @@
+timestamp,message,logStreamName
+1636337891550,"ERROR:root:Request exception: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/instance-id (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7efcbcc859b0>, 'Connection to 169.254.169.254 timed out. (connect timeout=0.1)'))",AllTraffic/i-05b4c405ca1171650
+1636337891552,"ERROR:root:Request exception: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/dynamic/instance-identity/document (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7efcbcca0128>, 'Connection to 169.254.169.254 timed out. (connect timeout=0.1)'))",AllTraffic/i-05b4c405ca1171650
+1636337891552,"2021-11-08 02:18:11,339 [INFO ] main com.amazonaws.ml.mms.ModelServer - ",AllTraffic/i-05b4c405ca1171650
+1636337891552,MMS Home: /opt/conda/lib/python3.6/site-packages,AllTraffic/i-05b4c405ca1171650
+1636337891552,Current directory: /,AllTraffic/i-05b4c405ca1171650
+1636337891552,Temp directory: /home/model-server/tmp,AllTraffic/i-05b4c405ca1171650
+1636337891552,Number of GPUs: 0,AllTraffic/i-05b4c405ca1171650
+1636337891552,Number of CPUs: 1,AllTraffic/i-05b4c405ca1171650
+1636337891552,Max heap size: 3296 M,AllTraffic/i-05b4c405ca1171650
+1636337891552,Python executable: /opt/conda/bin/python,AllTraffic/i-05b4c405ca1171650
+1636337891552,Config file: /etc/sagemaker-mms.properties,AllTraffic/i-05b4c405ca1171650
+1636337891552,Inference address: http://0.0.0.0:8080,AllTraffic/i-05b4c405ca1171650
+1636337891552,Management address: http://127.0.0.1:8081,AllTraffic/i-05b4c405ca1171650
+1636337891552,Model Store: /.sagemaker/mms/models,AllTraffic/i-05b4c405ca1171650
+1636337891552,Initial Models: ALL,AllTraffic/i-05b4c405ca1171650
+1636337891552,Log dir: /logs,AllTraffic/i-05b4c405ca1171650
+1636337891552,Metrics dir: /logs,AllTraffic/i-05b4c405ca1171650
+1636337891552,Netty threads: 0,AllTraffic/i-05b4c405ca1171650
+1636337891552,Netty client threads: 0,AllTraffic/i-05b4c405ca1171650
+1636337891552,Default workers per model: 1,AllTraffic/i-05b4c405ca1171650
+1636337891552,Blacklist Regex: N/A,AllTraffic/i-05b4c405ca1171650
+1636337891552,Maximum Response Size: 6553500,AllTraffic/i-05b4c405ca1171650
+1636337891552,Maximum Request Size: 6553500,AllTraffic/i-05b4c405ca1171650
+1636337891552,"2021-11-08 02:18:11,405 [INFO ] main com.amazonaws.ml.mms.wlm.ModelManager - Model model loaded.",AllTraffic/i-05b4c405ca1171650
+1636337891552,"2021-11-08 02:18:11,423 [INFO ] main com.amazonaws.ml.mms.ModelServer - Initialize Inference server with: EpollServerSocketChannel.",AllTraffic/i-05b4c405ca1171650
+1636337891552,"2021-11-08 02:18:11,546 [INFO ] main com.amazonaws.ml.mms.ModelServer - Inference API bind to: http://0.0.0.0:8080",AllTraffic/i-05b4c405ca1171650
+1636337891552,"2021-11-08 02:18:11,546 [INFO ] main com.amazonaws.ml.mms.ModelServer - Initialize Management server with: EpollServerSocketChannel.",AllTraffic/i-05b4c405ca1171650
+1636337891802,"2021-11-08 02:18:11,548 [INFO ] main com.amazonaws.ml.mms.ModelServer - Management API bind to: http://127.0.0.1:8081",AllTraffic/i-05b4c405ca1171650
+1636337891802,Model server started.,AllTraffic/i-05b4c405ca1171650
+1636337891804,"2021-11-08 02:18:11,567 [WARN ] pool-2-thread-1 com.amazonaws.ml.mms.metrics.MetricCollector - worker pid is not available yet.",AllTraffic/i-05b4c405ca1171650
+1636337891804,"2021-11-08 02:18:11,629 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Listening on port: /home/model-server/tmp/.mms.sock.9000",AllTraffic/i-05b4c405ca1171650
+1636337891804,"2021-11-08 02:18:11,629 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - [PID]27",AllTraffic/i-05b4c405ca1171650
+1636337891804,"2021-11-08 02:18:11,630 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - MXNet worker started.",AllTraffic/i-05b4c405ca1171650
+1636337891804,"2021-11-08 02:18:11,631 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Python runtime: 3.6.6",AllTraffic/i-05b4c405ca1171650
+1636337891804,"2021-11-08 02:18:11,638 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Connecting to: /home/model-server/tmp/.mms.sock.9000",AllTraffic/i-05b4c405ca1171650
+1636337892052,"2021-11-08 02:18:11,655 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Connection accepted: /home/model-server/tmp/.mms.sock.9000.",AllTraffic/i-05b4c405ca1171650
+1636337897312,"2021-11-08 02:18:12,008 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 318",AllTraffic/i-05b4c405ca1171650
+1636337901820,"2021-11-08 02:18:17,120 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 17",AllTraffic/i-05b4c405ca1171650
+1636337906824,"2021-11-08 02:18:21,789 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337911828,"2021-11-08 02:18:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337916833,"2021-11-08 02:18:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337921837,"2021-11-08 02:18:36,788 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337926842,"2021-11-08 02:18:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337931846,"2021-11-08 02:18:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337936851,"2021-11-08 02:18:51,788 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636337941855,"2021-11-08 02:18:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337946860,"2021-11-08 02:19:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46752 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,474 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Invoking custom service failed.",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,474 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Traceback (most recent call last):",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,475 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/mms/service.py"", line 108, in predict",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,475 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     ret = self._entry_point(input_batch, self.context)",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,475 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/default_handler_service.py"", line 31, in handle",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,475 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return self._service.transform(data, context)",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,476 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 55, in transform",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,476 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 221",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,476 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self.validate_and_initialize()",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,476 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 92, in validate_and_initialize",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,476 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self._validate_user_module_and_set_functions()",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,477 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 103, in _validate_user_module_and_set_functions",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,477 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     user_module = importlib.import_module(self._environment.module_name)",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,477 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/importlib/__init__.py"", line 126, in import_module",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,477 [INFO ] W-9000-model ACCESS_LOG - /169.254.178.2:46752 ""POST /invocations HTTP/1.1"" 503 227",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,477 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return _bootstrap._gcd_import(name[level:], package, level)",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,478 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 994, in _gcd_import",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,478 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 971, in _find_and_load",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,478 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 955, in _find_and_load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,478 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 665, in _load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,479 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap_external>"", line 678, in exec_module",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,479 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 219, in _call_with_frames_removed",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,487 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/predict.py"", line 16, in <module>",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,489 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     from utils import review_to_words, convert_and_pad",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,490 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/utils.py"", line 1, in <module>",AllTraffic/i-05b4c405ca1171650
+1636337949612,"2021-11-08 02:19:09,490 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     import nltk",AllTraffic/i-05b4c405ca1171650
+1636337951864,"2021-11-08 02:19:09,491 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - ModuleNotFoundError: No module named 'nltk'",AllTraffic/i-05b4c405ca1171650
+1636337956868,"2021-11-08 02:19:11,791 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337961873,"2021-11-08 02:19:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337966878,"2021-11-08 02:19:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337971882,"2021-11-08 02:19:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337976886,"2021-11-08 02:19:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337981891,"2021-11-08 02:19:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337986896,"2021-11-08 02:19:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337991900,"2021-11-08 02:19:46,789 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636337996905,"2021-11-08 02:19:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338001909,"2021-11-08 02:19:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:01,790 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46776 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,112 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Invoking custom service failed.",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,113 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 4",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,113 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Traceback (most recent call last):",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,113 [INFO ] W-9000-model ACCESS_LOG - /169.254.178.2:46776 ""POST /invocations HTTP/1.1"" 503 4",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,113 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/mms/service.py"", line 108, in predict",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,113 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     ret = self._entry_point(input_batch, self.context)",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,113 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/default_handler_service.py"", line 31, in handle",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,114 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return self._service.transform(data, context)",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,114 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 55, in transform",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,114 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self.validate_and_initialize()",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,114 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 92, in validate_and_initialize",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,114 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self._validate_user_module_and_set_functions()",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,114 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 103, in _validate_user_module_and_set_functions",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,115 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     user_module = importlib.import_module(self._environment.module_name)",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,115 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/importlib/__init__.py"", line 126, in import_module",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,115 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return _bootstrap._gcd_import(name[level:], package, level)",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,115 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 994, in _gcd_import",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,115 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 971, in _find_and_load",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,115 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 955, in _find_and_load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,116 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 665, in _load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,116 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap_external>"", line 678, in exec_module",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,116 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 219, in _call_with_frames_removed",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,116 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/predict.py"", line 16, in <module>",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,116 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     from utils import review_to_words, convert_and_pad",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,117 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/utils.py"", line 1, in <module>",AllTraffic/i-05b4c405ca1171650
+1636338006163,"2021-11-08 02:20:06,117 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     import nltk",AllTraffic/i-05b4c405ca1171650
+1636338006914,"2021-11-08 02:20:06,117 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - ModuleNotFoundError: No module named 'nltk'",AllTraffic/i-05b4c405ca1171650
+1636338011919,"2021-11-08 02:20:06,789 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338016924,"2021-11-08 02:20:11,788 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338021928,"2021-11-08 02:20:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338026933,"2021-11-08 02:20:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338031937,"2021-11-08 02:20:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338036942,"2021-11-08 02:20:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338041947,"2021-11-08 02:20:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338046951,"2021-11-08 02:20:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338051956,"2021-11-08 02:20:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338056960,"2021-11-08 02:20:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:20:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46814 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,845 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Invoking custom service failed.",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,845 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 3",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,845 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Traceback (most recent call last):",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,845 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/mms/service.py"", line 108, in predict",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,845 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     ret = self._entry_point(input_batch, self.context)",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model ACCESS_LOG - /169.254.178.2:46814 ""POST /invocations HTTP/1.1"" 503 4",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/default_handler_service.py"", line 31, in handle",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return self._service.transform(data, context)",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 55, in transform",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self.validate_and_initialize()",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 92, in validate_and_initialize",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self._validate_user_module_and_set_functions()",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,846 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 103, in _validate_user_module_and_set_functions",AllTraffic/i-05b4c405ca1171650
+1636338060963,"2021-11-08 02:21:00,847 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     user_module = importlib.import_module(self._environment.module_name)",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,847 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/importlib/__init__.py"", line 126, in import_module",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,847 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return _bootstrap._gcd_import(name[level:], package, level)",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,848 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 994, in _gcd_import",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,848 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 971, in _find_and_load",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,848 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 955, in _find_and_load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,849 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 665, in _load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,849 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap_external>"", line 678, in exec_module",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,849 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 219, in _call_with_frames_removed",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,849 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/predict.py"", line 16, in <module>",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,849 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     from utils import review_to_words, convert_and_pad",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,850 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/utils.py"", line 1, in <module>",AllTraffic/i-05b4c405ca1171650
+1636338060964,"2021-11-08 02:21:00,850 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     import nltk",AllTraffic/i-05b4c405ca1171650
+1636338061964,"2021-11-08 02:21:00,850 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - ModuleNotFoundError: No module named 'nltk'",AllTraffic/i-05b4c405ca1171650
+1636338066969,"2021-11-08 02:21:01,790 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338071973,"2021-11-08 02:21:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338076978,"2021-11-08 02:21:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338081983,"2021-11-08 02:21:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338086987,"2021-11-08 02:21:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338091992,"2021-11-08 02:21:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46850 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Invoking custom service failed.",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - Traceback (most recent call last):",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/mms/service.py"", line 108, in predict",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     ret = self._entry_point(input_batch, self.context)",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model com.amazonaws.ml.mms.wlm.WorkerThread - Backend response time: 3",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/default_handler_service.py"", line 31, in handle",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return self._service.transform(data, context)",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,665 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 55, in transform",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self.validate_and_initialize()",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model ACCESS_LOG - /169.254.178.2:46850 ""POST /invocations HTTP/1.1"" 503 5",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 92, in validate_and_initialize",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     self._validate_user_module_and_set_functions()",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/site-packages/sagemaker_inference/transformer.py"", line 103, in _validate_user_module_and_set_functions",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     user_module = importlib.import_module(self._environment.module_name)",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/conda/lib/python3.6/importlib/__init__.py"", line 126, in import_module",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,666 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     return _bootstrap._gcd_import(name[level:], package, level)",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,668 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 994, in _gcd_import",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,668 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 971, in _find_and_load",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,669 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 955, in _find_and_load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,669 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 665, in _load_unlocked",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,669 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap_external>"", line 678, in exec_module",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,669 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""<frozen importlib._bootstrap>"", line 219, in _call_with_frames_removed",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,669 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/predict.py"", line 16, in <module>",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,670 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     from utils import review_to_words, convert_and_pad",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,670 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -   File ""/opt/ml/model/code/utils.py"", line 1, in <module>",AllTraffic/i-05b4c405ca1171650
+1636338095745,"2021-11-08 02:21:35,670 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle -     import nltk",AllTraffic/i-05b4c405ca1171650
+1636338096996,"2021-11-08 02:21:35,670 [INFO ] W-9000-model-stdout com.amazonaws.ml.mms.wlm.WorkerLifeCycle - ModuleNotFoundError: No module named 'nltk'",AllTraffic/i-05b4c405ca1171650
+1636338102001,"2021-11-08 02:21:36,789 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338107005,"2021-11-08 02:21:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338112010,"2021-11-08 02:21:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338117014,"2021-11-08 02:21:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338122019,"2021-11-08 02:21:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338127023,"2021-11-08 02:22:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338132028,"2021-11-08 02:22:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338137032,"2021-11-08 02:22:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338142037,"2021-11-08 02:22:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338146791,"2021-11-08 02:22:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338151795,"2021-11-08 02:22:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338156800,"2021-11-08 02:22:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338161805,"2021-11-08 02:22:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338166809,"2021-11-08 02:22:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338171813,"2021-11-08 02:22:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338176818,"2021-11-08 02:22:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338181822,"2021-11-08 02:22:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338186826,"2021-11-08 02:23:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338191831,"2021-11-08 02:23:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338196835,"2021-11-08 02:23:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338201840,"2021-11-08 02:23:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338206844,"2021-11-08 02:23:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338211848,"2021-11-08 02:23:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338216853,"2021-11-08 02:23:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338221857,"2021-11-08 02:23:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338226861,"2021-11-08 02:23:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338231866,"2021-11-08 02:23:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338236870,"2021-11-08 02:23:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338241874,"2021-11-08 02:23:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338246879,"2021-11-08 02:24:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338251883,"2021-11-08 02:24:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338256888,"2021-11-08 02:24:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338261892,"2021-11-08 02:24:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338266897,"2021-11-08 02:24:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338271901,"2021-11-08 02:24:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338276905,"2021-11-08 02:24:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338281910,"2021-11-08 02:24:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338286914,"2021-11-08 02:24:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338291918,"2021-11-08 02:24:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338296923,"2021-11-08 02:24:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338301927,"2021-11-08 02:24:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338306932,"2021-11-08 02:25:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338311936,"2021-11-08 02:25:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338316941,"2021-11-08 02:25:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338321945,"2021-11-08 02:25:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338326950,"2021-11-08 02:25:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338331954,"2021-11-08 02:25:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338336959,"2021-11-08 02:25:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338341963,"2021-11-08 02:25:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338346968,"2021-11-08 02:25:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338351972,"2021-11-08 02:25:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338356976,"2021-11-08 02:25:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338361981,"2021-11-08 02:25:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338366985,"2021-11-08 02:26:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338371990,"2021-11-08 02:26:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338376994,"2021-11-08 02:26:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338381999,"2021-11-08 02:26:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338387003,"2021-11-08 02:26:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338392007,"2021-11-08 02:26:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338397012,"2021-11-08 02:26:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338402017,"2021-11-08 02:26:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338407021,"2021-11-08 02:26:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338412025,"2021-11-08 02:26:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338417030,"2021-11-08 02:26:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338422034,"2021-11-08 02:26:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338426788,"2021-11-08 02:27:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338431793,"2021-11-08 02:27:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338436797,"2021-11-08 02:27:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338441802,"2021-11-08 02:27:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338446806,"2021-11-08 02:27:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338451810,"2021-11-08 02:27:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338456815,"2021-11-08 02:27:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338461819,"2021-11-08 02:27:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338466823,"2021-11-08 02:27:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338471828,"2021-11-08 02:27:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338476832,"2021-11-08 02:27:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338481836,"2021-11-08 02:27:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338486840,"2021-11-08 02:28:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338491845,"2021-11-08 02:28:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338496850,"2021-11-08 02:28:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338501854,"2021-11-08 02:28:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338506858,"2021-11-08 02:28:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338511863,"2021-11-08 02:28:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338516867,"2021-11-08 02:28:31,788 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338521872,"2021-11-08 02:28:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338526876,"2021-11-08 02:28:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338531881,"2021-11-08 02:28:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338536885,"2021-11-08 02:28:51,789 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338541890,"2021-11-08 02:28:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338546895,"2021-11-08 02:29:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338551899,"2021-11-08 02:29:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338556904,"2021-11-08 02:29:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338561908,"2021-11-08 02:29:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338566912,"2021-11-08 02:29:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338571917,"2021-11-08 02:29:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338576921,"2021-11-08 02:29:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338581926,"2021-11-08 02:29:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338586930,"2021-11-08 02:29:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338591935,"2021-11-08 02:29:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338596940,"2021-11-08 02:29:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338601944,"2021-11-08 02:29:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338606948,"2021-11-08 02:30:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338611953,"2021-11-08 02:30:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338616957,"2021-11-08 02:30:11,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338621962,"2021-11-08 02:30:16,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338626966,"2021-11-08 02:30:21,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338631971,"2021-11-08 02:30:26,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338636975,"2021-11-08 02:30:31,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338641979,"2021-11-08 02:30:36,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338646984,"2021-11-08 02:30:41,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338651989,"2021-11-08 02:30:46,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338656993,"2021-11-08 02:30:51,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 1",AllTraffic/i-05b4c405ca1171650
+1636338661998,"2021-11-08 02:30:56,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338667002,"2021-11-08 02:31:01,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
+1636338672006,"2021-11-08 02:31:06,787 [INFO ] pool-1-thread-2 ACCESS_LOG - /169.254.178.2:46880 ""GET /ping HTTP/1.1"" 200 0",AllTraffic/i-05b4c405ca1171650
